@@ -22,7 +22,7 @@ def get_labels_for_variable(var_name, acs):
         except Exception as e: # e.g. 404 - variable does not exist
             label = pd.NA
 
-        df_new = pd.DataFrame({'Year': year,
+        df_new = pd.DataFrame({'Year': str(year),
                             'Name': var_name,
                             'Label': label}, index=[None])
  
