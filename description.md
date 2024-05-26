@@ -1,3 +1,3 @@
 Sometimes variables in the [American Community Survey (ACS)](https://en.wikipedia.org/wiki/American_Community_Survey) change meaning over time. This can throw off your analysis. This app helps you prevent that problem by showing you all labels assigned to a given variable over the life of the ACS.
 
-The default value of this app (`B08006_017E`) is the actual variable which caused the creation of this app. See if you can spot when it changed meaning.
+The default value of this app (`B08006_017E`) is the actual variable which caused the creation of this app. See if you can spot the issue with trying to treat this variable as a time series over the course of the entire ACS.
